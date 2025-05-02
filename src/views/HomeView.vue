@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import MapCanvas from '@/components/MapCanvas.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="h-screen w-screen bg-[#D8D7D7] p-4">
+    <MapCanvas />
+  </div>
 </template>
